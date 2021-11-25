@@ -5,21 +5,22 @@
 #nav>li>a:hover{background-color: red;}
 #burger{width: 48px;height: 48px; display: none;}
 #burger>div{height: 8px;margin-bottom: 8px;margin-top: 8px; background-color: white;}
-#images,#images2{text-align: center;}
-#images>li,#images2>li{display: inline-block; margin:20px 20px;}
-#images>li>img,#images2>li>img{border-radius: 20px; overflow: hidden; width: 200px; height: 200px;  
+.images{text-align: center;}
+.images>li{display: inline-block; margin:20px 20px;}
+.images>li>img{border-radius: 20px; width: 200px; height: 200px;  
 background-color: black; 
 -moz-transition: all 1s ease-out; 
 -o-transition:all 1s ease-out; 
 -webkit-transition:all 1s ease-out;}
-#images>li>img:hover,#images2>li>img:hover{
+.title{ color: white; font-size: 25pt; float: left; padding: 5px 10px;}
+.images>li>img:hover{
 	-webkit-transform:scale(1.1); 
 	-moz-transform: scale(1.1); 
 	-o-transform:scale(1.1);
 	 }
 @media(max-width: 600px)
 {
-#nav{text-align: center;}
+#nav{text-align: right;}
 #nav>li{display: none;}
 #burger{display: inline-block;}
 #nav:hover #burger{display: none}
@@ -30,3 +31,9 @@ background-color: black;
 .main{
 min-height: calc(100vh - 80px);
 }
+.borderImage{
+	border-top:solid;
+	border-bottom: solid;
+	border-color: lightgray;
+}
+.nadpis{margin-bottom: 20px; margin-top: 20px;}
